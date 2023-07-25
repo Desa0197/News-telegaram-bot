@@ -26,5 +26,4 @@ async def start(message: types.Message):
         await message.answer(match)
 
 
-if __name__ == '__main__':
-    executor.start_polling(dp)
+executor.start_polling(dp)
